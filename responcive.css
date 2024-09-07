@@ -1,29 +1,134 @@
-     /* FOR FORM  */
- /* +++++ FOr Small Screen +++++ */
-@media (max-width:576px) {
+/* Responsive Styling */
+@media (max-width: 1200px) {
     form {
-        width: 90vw;
+        width: 50%;
     }
-}
 
-/* For medium Screens  */
-@media (max-width:768px) {
-    form {
-        width: 70vw;
-    }
-}  
-        /* For TODO LIST  */
- /* +++++ FOr Small Screen +++++ */
-@media (max-width:576px) {
     .toDoListContainer {
-        width: 90vw;
+        width: 50%;
+    }
+
+    li.task-row {
+        width: 300px;
     }
 }
 
-/* For medium Screens  */
-@media (max-width:768px) {
-    .toDoListContainer{
-        width: 70vw;
+@media (max-width: 992px) {
+    form {
+        width: 60%;
+    }
+
+    .toDoListContainer {
+        width: 60%;
+    }
+
+    li.task-row {
+        width: 280px;
+    }
+
+    li .TaskContent-container {
+        width: 240px;
     }
 }
 
+@media (max-width: 768px) {
+    form {
+        width: 70%;
+    }
+
+    .toDoListContainer {
+        width: 70%;
+    }
+
+    li.task-row {
+        width: 100%;
+    }
+
+    li .TaskContent-container {
+        width: 80%;
+    }
+    .icon-container{
+        width: 15%;
+    }
+
+    /* input {
+        width: 80%;
+    } */
+
+    /* #taskInput {
+        width: 240px;
+    } */
+
+    ul li {
+        width: 90%;
+        font-size: 16px;
+
+    }
+}
+
+@media (max-width: 576px) {
+    body{
+        font-size: 15px;
+    }
+    form {
+        width: 90%;
+    }
+
+    .toDoListContainer {
+        width: 90%;
+    }
+
+    li.task-row {
+        width: 220px;
+    }
+
+    li .TaskContent-container {
+        width: 180px;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    #taskInput {
+        width: 200px;
+    }
+
+    ul li {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    button#submit, button#addButton {
+        width: 100px;
+    }
+}
+
+@media (max-width: 400px) {
+    body{
+        font-size: 14px;
+    }
+    form {
+        width: 95%;
+    }
+
+    .toDoListContainer {
+        width: 90%;
+    }
+    .icon-container{
+        width: 10%;
+    }
+
+    li .TaskContent-container {
+        width: 90%;
+    }
+
+    ul li {
+        width: 98%;
+        font-size: 14px;
+    }
+
+    button#submit{
+        width: 80px;
+    }
+}

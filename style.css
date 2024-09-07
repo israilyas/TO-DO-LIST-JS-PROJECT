@@ -71,9 +71,9 @@ input {
     background-color: white;
     box-shadow: 4px 4px 4px;
 }
-.taskInputCOntainer{
+/* .taskInputCOntainer{
     width: 400px;
-}
+} */
 #addButton{
     background-color: rgb(28, 125, 178);
     color: white;
