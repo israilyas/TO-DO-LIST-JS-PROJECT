@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(28, 125, 178);
+}
+
+#input-form {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+button:hover{
+    box-shadow: 4px 4px 4px;
+}
+
+form {
+    background-color: white;
+    width: 40%;
+    box-shadow: 4px 4px 4px;
+}
+
+.form-heading , .toDoListHeading {
+    color: rgb(28, 125, 178);
+}
+
+input {
+    width: 150px;
+    padding: 2px 12px;
+    margin: 10px;
+    outline: none;
+}
+
+#submit {
+    width: 150px;
+    height: 40px;
+    padding: 2px 12px;
+    margin: 10px;
+    background-color: rgb(28, 125, 178);
+    color: white;
+    border: 2px ;
+}
+
+/* ================  */
+#completed{
+    color: white; 
+    background-color: transparent; 
+    cursor: pointer;
+    font-size: 25px;
+    height: 22px;
+}
+
+#delete{
+    color: white;
+    background-color: transparent; 
+    cursor: pointer; 
+    font-size: 25px;
+    height: 20px;
+}
+#delete:hover{
+    color: red;
+}
+
+/* ====  To Do ListStyling ======  */
+#toDoListSection{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.toDoListContainer{
+    width: 40%;
+    background-color: white;
+    box-shadow: 4px 4px 4px;
+}
+.taskInputCOntainer{
+    width: 400px;
+}
+#addButton{
+    background-color: rgb(28, 125, 178);
+    color: white;
+    border: 2px;
+    width: 90px;
+    height: 40px;
+    border-radius: 40px;
+}
+input{
+    width: 300px;
+    height: 40px;
+}
+
+#taskInput{
+    background-color: transparent;
+    border: none;
+    width: 300px;
+    border-radius: 20px;
+    border: 0.5px solid black;
+}
+
+ul{
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    /* user-select: none; */
+    cursor: pointer;
+    background-color:  rgb(28, 125, 178);
+    border-radius: 5px;
+    width: 400px;
+    margin: 4px 0px;
+    padding: 8px 25px;
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completedTask{
+    background-color: green;
+}
+
+
+/* ==== hide form ====  */
+#input-form.formhide{
+    display: none;
+}
+
+#toDoList.toDolistHide{
+    display: none;
+}
+
+.toDolistHide{
+    display: none;
+}
+
+.toDolistShow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+li.task-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    /* width: 100%; */
+}
+
+li .TaskContent-container {
+    width: 340px; 
+    
+}
+
+li .icon-container {
+    width: 40px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+

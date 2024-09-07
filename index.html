@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responcive.css">
+</head>
+
+<body>
+    <section id="input-form">
+        <form class="mx-auto row text-center  py-5" style="border-radius: 5px;">
+            <h4 class="fw-bolder form-heading">Enter Your Details</h4>
+            <div class="container w-75  text-center">
+                <input type="text" placeholder="Username" class="col-12" id="username" required >
+                <input type="email" placeholder="example@gmail.com" class="col-12" id="email" required >
+                <button id="submit">SUBMIT</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- To-Do List Section -->
+    <section id="toDoListSection" class="toDolistHide">
+        <div class="container toDoListContainer py-5 d-flex align-items-center flex-column justify-content-center" style="border-radius: 5px;">
+            <h3 class="fw-bolder toDoListHeading">TO DO LIST <img src="asset/icon.png" alt="" width="35px" ></h3>
+            <div>
+                <input type="text" placeholder="Add Your Task Here!" id="taskInput">
+                <button id="addButton">Add</button>
+            </div>
+
+            <ul id="toDolistTaskContainer" class="list-container d-flex flex-column align-items-center justify-content-center pt-4" >
+            </ul>
+
+        </div>
+    </section>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
+
+    <!-- BOOTSTRAP SCRIPT   -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- IONICONS CDN  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
